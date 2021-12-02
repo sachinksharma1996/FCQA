@@ -1,6 +1,9 @@
 'use strict';
 
 registerRouteData('ec-forms', [{
+    stateName: 'ckfinder',
+    url: '/ck-finder'
+}, {
     stateName: 'formBuilder.builder',
     url: '/builder?deactivate',
     $permissions: function $permissions(permissionSvc) {
